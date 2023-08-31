@@ -174,3 +174,63 @@ c = int(input('3-sonni kiriting'))
 #
 # print('musbat sonlar', positive_count, 'ta')
 # print('manfiy sonlar', negative_count, 'ta')
+
+
+# masala-16
+
+# if a < b < c:
+#     a *= 2
+#     b *= 2
+#     c *= 2
+# else:
+#     a = -a
+#     b = -b
+#     c = -c
+#
+# print(a, b, c)
+
+
+# masala-17
+
+# if a < b < c or a > b > c:
+#     a *= 2
+#     b *= 2
+#     c *= 2
+# else:
+#     a = -a
+#     b = -b
+#     c = -c
+#
+# print(a, b, c)
+
+
+# masala-18
+
+# if a == b:
+#     c = a + 1
+#
+# print(c)
+
+
+# masala-19
+
+# if numb == a == b:
+#     c = numb + 1
+#
+
+
+# print(c)
+
+
+# masala-20
+
+# a_first = float(input("a nuqtaning x-koordinatasini kiriting: "))
+# b_second = float(input("a nuqtaning y-koordinatasini kiriting: "))
+# c_third = float(input("a nuqtaning z-koordinatasini kiriting: "))
+#
+# closest_point = (0, b_second, 0)
+#
+# distance = abs(a_first)
+#
+# print("a nuqtaga eng yaqin nuqta:", closest_point)
+# print("A nuqta va eng yaqin nuqta orasidagi masofa:", distance)
