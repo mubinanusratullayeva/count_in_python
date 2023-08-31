@@ -123,3 +123,54 @@ c = int(input('3-sonni kiriting'))
 #     count = 0
 #     print(count)
 
+# masala-12
+
+# count = min(a, b, c)
+#
+# print(count)
+
+# masala-13
+
+# largest = max(a, b, c)
+# smallest = min(a, b, c)
+#
+# average = (a + b + c - largest - smallest) / 1
+#
+# print(average)
+
+# masala-14
+
+# positive_count = 0
+#
+# if a > 0:
+#     positive_count += 1
+# if b > 0:
+#     positive_count += 1
+# if c > 0:
+#     positive_count += 1
+#
+# print('musbat sonlar', positive_count, 'ta')
+
+
+# masala-15
+
+# positive_count = 0
+# negative_count = 0
+#
+# if a > 0:
+#     positive_count += 1
+# else:
+#     negative_count += 1
+#
+# if b > 0:
+#     positive_count += 1
+# else:
+#     negative_count += 1
+#
+# if c > 0:
+#     positive_count += 1
+# else:
+#     negative_count += 1
+#
+# print('musbat sonlar', positive_count, 'ta')
+# print('manfiy sonlar', negative_count, 'ta')
