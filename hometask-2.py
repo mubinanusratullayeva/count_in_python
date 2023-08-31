@@ -1,8 +1,8 @@
-# numb = int(input('son kiriting'))
+numb = int(input('son kiriting'))
 
-a = int(input('1-sonni kiriting'))
-b = int(input('2-sonni kiriting'))
-c = int(input('3-sonni kiriting'))
+# a = int(input('1-sonni kiriting'))
+# b = int(input('2-sonni kiriting'))
+# c = int(input('3-sonni kiriting'))
 
 # masala-1
 
@@ -234,3 +234,14 @@ c = int(input('3-sonni kiriting'))
 #
 # print("a nuqtaga eng yaqin nuqta:", closest_point)
 # print("A nuqta va eng yaqin nuqta orasidagi masofa:", distance)
+
+
+# masala-29
+
+# if numb > 0 and numb % 2 == 0:
+#     print(f'{numb} musbat juft son')
+# elif numb < 0 and numb % 2 == 0:
+#     print(f'{numb} manfiy toq son')
+# else:
+#     print('toq son')
+
