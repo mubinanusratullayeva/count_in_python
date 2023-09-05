@@ -1,4 +1,4 @@
-numb = int(input('son kiriting'))
+numb = float(input('son kiriting'))
 
 # a = int(input('1-sonni kiriting'))
 # b = int(input('2-sonni kiriting'))
@@ -245,3 +245,53 @@ numb = int(input('son kiriting'))
 # else:
 #     print('toq son')
 
+
+
+# homework-day-3
+
+# masala-1
+# k va n butun sonlari berilgan (n > 0). k sonini n marta chiqaruvchi dastur tuzing.
+
+# k = int(input('k sonni kiriting: '))
+# n = int(input('n sonni kiriting: '))
+#
+# for i in range(n):
+#     if i > 0:
+#         print(k)
+
+
+# masala-2
+# a va b butun sonlari berilgan (a < b). a va b sonlari orasidagi barcha butun sonlarni (a va b ni ham) chiqaruvchi va ciqarilgan sonlar sonini chiqaruvchi dastur tuzing
+
+# a = int(input('a sonini kiriting: '))
+# b = int(input('b sonini kiriting: '))
+
+
+# for i in range(a, b + 1):
+#         print(i)
+#
+# print(f'a va b orasidagi sonlar soni: {b - a}')
+
+
+
+# masala-3
+# a va b butun sonlari berilgan (a<b). a va b butn sonalri orasidagi barcha butun sonlarni  (a va b dan tashqari) kamayish tartibida chiqaring
+
+# for i in range(b-1, a, -1):
+#     print(i)
+#
+# print(f'a va b orasidagi sonlar soni: {b - a}')
+
+
+# masala-4
+# 1 kg konfetning narxi berilgan (haqiqiy son). 1, 2 ..., 10 kg konfetni narxini chiqaring
+
+# for i in range(1, 11):
+    # print(f"{i} kg konfetning narxi {i * numb} so'm")
+
+
+# masala-5
+# 1 kg konfetning narxi berilgan(haqiqiy son). 0.1, 0.2, ..., 0.9,  1kg konfetning narxini chiqaring
+
+# for i in range(1, 11):
+#     print(f"{i / 10} kg konfetning narxi {i / 10 * numb}")
