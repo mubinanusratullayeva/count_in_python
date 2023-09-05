@@ -4,6 +4,8 @@ a = int(input('1-sonni kiriting'))
 # b = int(input('2-sonni kiriting'))
 # c = int(input('3-sonni kiriting'))
 
+n = a
+
 # masala-1
 
 # if numb > 0:
@@ -339,9 +341,61 @@ a = int(input('1-sonni kiriting'))
 # n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblng
 # S = 1 + 1/2 + 1/3 + ... + 1/n
 
-# n = a
 # s = 0
 #
 # for i in range(1, n + 1):
 #      s += 1/i
 # print(s)
+
+
+# masala-11
+# n butun soni berilgan (n>0). Quyidagi yig'indini hisoblang
+# S = n ** 2 + (n+1) ** 2 + ... (2 * n) ** 2
+
+# s = 0
+#
+# for i in range(n, 2*n+1):
+#     s += i**2
+# print
+
+
+# masala-12
+# n butun soni berilgan (n>0). Quyidagi ko'paytmani hisoblang'
+# S = 1.1 * 1.2 * 1.3 ... (n ta ko'paytuvchi)
+
+# s = 1
+#
+# for i in range(1, n+1):
+#     s *= (1 + i/10)
+# print(s)
+
+
+# masala-13
+# n butun son berilgan (n > 0). Qiyidagi yig'indini hisobalng'
+# S = 1.1 - 1.2 + 1.3 - ...
+# (n ta qo'shubchi, ishoralar almashib keladi. Shart operatoridan foydalanmang)
+
+# s = 0
+#
+# for i in range(1, n+1):
+#     if i < 0:
+#         j = i * (-1)
+#         s += (1+j/10 - 1+j/10)
+#     else:
+#         s += (1+i/10 - 1+i/10)
+#
+# print(s)
+
+
+# masala-14
+# n butun soni berilgan (n > 0). shu sonning kvadratini shu formuladan foydalanib yeching
+# n **2 = 1 + 3 + 5 + ... + (2*n - 1)
+# har bir qo'shiluvchidan keyin natijani chiqarib boring. Natijada ekranda 1 dan n gacha bo'lgan sonlar kvadrati chiqariladi
+
+# s = 0
+#
+# for i in range(1, n+1):
+#     s += (2*i - 1)
+#     print(f"Qo'shgandan keyin {2*i - 1}, {s} bo'ladi")
+#
+# print(f"yig'indi {s}")
