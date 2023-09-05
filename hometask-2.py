@@ -1,6 +1,6 @@
-numb = float(input('son kiriting'))
+# numb = float(input('son kiriting'))
 
-# a = int(input('1-sonni kiriting'))
+a = int(input('1-sonni kiriting'))
 # b = int(input('2-sonni kiriting'))
 # c = int(input('3-sonni kiriting'))
 
@@ -295,3 +295,53 @@ numb = float(input('son kiriting'))
 
 # for i in range(1, 11):
 #     print(f"{i / 10} kg konfetning narxi {i / 10 * numb}")
+
+
+# masala-6
+# 1 kg konfetning narxi berilgan (haqiqiy son). 1.2, 1.4, ..., 2 kg konfetni narxini chiqaring
+
+# for i in range(12, 21, 2):
+     # print(f"{i / 10} kg konfetning narxi {i / 10 * numb}")
+
+
+# masala-7
+# a va b butun sonalri berilgan (a<b). a dan b gacha bo'lgan barcha butun sonlar yig'indisini chiqaring
+
+# bar = 0
+#
+# for i in range(a, b + 1):
+#      bar += i
+# print(bar)
+
+
+# masala-8
+# a va b butun sonlari berilgan (a<b). a va b gacha bo'lgan barcha butun sonlarning ko'qaytmasini chiqaring
+
+# bar = 1
+#
+# for i in range(a, b):
+#      bar *= i
+# print(bar)
+
+
+# masala-9
+# a va b butun sonalri berilgan (a < b). a dan b gacha bo'lgan barcha butun sonalar kvadratlarining yig'indisini chiqaring
+#
+# bar = 0
+#
+# for i in range(a, b + 1):
+#      buzz = i ** 2
+#      bar += buzz
+# print(bar)
+
+
+# masala-10
+# n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblng
+# S = 1 + 1/2 + 1/3 + ... + 1/n
+
+# n = a
+# s = 0
+#
+# for i in range(1, n + 1):
+#      s += 1/i
+# print(s)
