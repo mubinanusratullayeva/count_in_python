@@ -1,8 +1,10 @@
 # numb = float(input('son kiriting'))
 
 a = int(input('1-sonni kiriting'))
-# b = int(input('2-sonni kiriting'))
+b = int(input('2-sonni kiriting'))
 # c = int(input('3-sonni kiriting'))
+
+buzz = 0
 
 n = a
 
@@ -399,3 +401,60 @@ n = a
 #     print(f"Qo'shgandan keyin {2*i - 1}, {s} bo'ladi")
 #
 # print(f"yig'indi {s}")
+
+
+# homework-
+
+# 1-masala
+# A va B butun musbat sonlari berilgan (A > B). A uzunlikdagi kesmada maksimal darajada B kesma joylashtirilgan. A kesmaning bo'sh qismini aniqlovchi dastur tuzung. Ko'paytirish va bo'lish ammallarini ishlatmang.
+
+# while a > b:
+#     a = a - b
+#     buzz += 1
+# print(a, buzz)
+
+
+# 2-masala
+# A va B butun musbat sonlari berilgan (A > B).A uzunlikdagi kesmada B kesmadan nechta joylashtirish mumkin. Ko'paytirish va bo'lish ammallarini ishlatmang.
+
+# count = 0
+#
+# while a >= b:
+#     a -= b
+#     count += 1
+#
+# print(f"uzunligi {n} bo'lgan kesmada {b} uzunlikdagi keamadan {count} ta joylashtirish mumkin ")
+
+
+
+# 3-masala
+# N va K butun musbat sonlari berilgan. Faqat ayirish va qo'shish amallarini ishlatib N sonini K soniga bo'lgandagi qoldiq va butun qismini aniqlang
+
+# o = a
+# while o >= b:
+#     o -= b
+#
+# print(f"""javob = {a // b},
+#  qoldiq {o}""")
+
+# 4-masala
+# n butun soni berilgan (n>0). Agar n soni 3 ning darajasi bo'lsa, "3 ning darajasi", aks holda "3-ning darajasi emas" degan natijani chiqaring. Qoldiqli bo'lish va bo'lish amallarini ishlatmang
+
+# while n % 3 == 0:
+#     n /= 3
+#
+# if n == 1:
+#     print("3 ning darajasi")
+# else:
+#     print("3 ning darajasi emas")
+
+# 5-masala
+# 2 sonining qandaydir darajasini bildiruvchi n butun soni berilgan (n>0) n = 2 ** k. k ni aniqlovchi dastur tuzing
+
+# k = 0
+#
+# while n > 1:
+#     n /= 2
+#     k += 1
+#
+# print(f"k = {k}")
