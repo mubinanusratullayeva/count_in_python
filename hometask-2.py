@@ -458,3 +458,53 @@ n = a
 #     k += 1
 #
 # print(f"k = {k}")
+
+# 6-masala
+# n natural soni berilgan (n > 0). Quyidagi ifodani hisoblovchi dastur tuzing
+# n!!=n*(n-2)*(n-4)...
+# Agar n juft bo'lsa oxirgi ko'paytuvchi 2, top bo'lsa 1 bo'ladi
+
+# r = 1
+# while n > 0:
+#     r *= n
+#     n -= 2
+#
+# print(f"n!! = {r}")
+
+# 7-masala
+# n natural soni berilgan (n > 0). Kvadrati n dan katta bo'ladigan eng kichik butun k sonini (k**2 > n) aniqlovchi dastur tuzing. Ildizdan chiqarivchi funksiyadan foydalanmang
+
+# k = 1
+# while k ** 2 <= n:
+#     k += 1
+#
+# print(k)
+
+
+# 8-masala
+# n natural soni berilgan (n > 0). Kvadrati n dan katta bo'lmagan eng katta butun k sonini (k**2 <= n) aniqlovchi dastur tuzing. Ildizdan chiqaruvchi funksiyadan foydalanmang
+
+# k = 1
+# while k ** 2 <= n:
+#     k += 1
+#
+# print(k-1)
+
+# 9-masala
+# n natural soni berilgan (n > 1). 3 **k > n sharti qanoatlantiruvchi eng kichik butun k sonini aniqlang
+
+# k = n + 1
+# while k <= n:
+#     k += 1
+#
+# print(k)
+
+
+# 10-masala
+# n natural soni berilgan (n > 1). n**k <= n shartini qanoatlantiruvchi eng katta butun k sonini aniqlang
+
+# k = 0
+# while n ** k <= n:
+#     k += 1
+#
+# print(k - 1)
